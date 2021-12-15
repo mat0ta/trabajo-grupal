@@ -3,7 +3,15 @@ import os
 import random
 import re
 import sys
+import pprint
+
 def simpleArraySum(ar):
+    suma=0
+    for i in ar:
+        suma +=1
+        print("suma = ", suma)
+        return suma
+
 
 if __name__ == '__main__':
 fptr = open(os.environ['OUTPUT_PATH'], 'w')

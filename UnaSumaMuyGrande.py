@@ -4,7 +4,11 @@ import random
 import re
 import sys
 def aVeryBigSum(ar):
-
+    suma=0
+    for i in ar:
+        suma += i
+        print("suma ", suma)
+        return suma
 
 
 if __name__ == '__main__':

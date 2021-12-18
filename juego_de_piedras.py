@@ -18,3 +18,10 @@ def jugada(i):
     elif(modulo >= 5 and modulo <= 6):
         jugada = 5
     return jugada
+
+if __name__ == '__main__':
+    rango = int(input().strip())
+
+    for t_itr in range(rango):
+        numero = int(input().strip())
+        result = juego(numero)

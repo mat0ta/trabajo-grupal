@@ -12,7 +12,6 @@ def aVeryBigSum(ar):
 
 
 if __name__ == '__main__':
-#fptr = open(os.environ['OUTPUT_PATH'], 'w')
     fptr=open('T3-3.txt', 'w')
     ar_count = int(input().strip())
     ar = list(map(int, input().rstrip().split()))

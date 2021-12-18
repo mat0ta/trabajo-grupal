@@ -1,5 +1,3 @@
-import os
-
 def calificacion(notas):
     list = []
     for nota in (notas):
@@ -18,8 +16,6 @@ def notafinal(notas):
         else:
             redondeo = notas
     return redondeo
-
-
 
 if __name__ == '__main__':
 

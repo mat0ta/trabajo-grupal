@@ -1,5 +1,3 @@
-import os
-
 def juego(i):
     ganador = ''
     if(jugada(i) != 0):
